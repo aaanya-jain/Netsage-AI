@@ -1,8 +1,0 @@
-pages:
-  - name: Dashboard
-    source: src/App.py
-  - name: Diagnose
-    source: src/App.py
-    action: run_gemini
-  - name: Human Review
-    source: data/review_log.csv
