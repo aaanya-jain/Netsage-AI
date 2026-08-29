@@ -1,0 +1,6 @@
+case_id,expected_fault,ai_initial_issue,review_status,human_reason,final_decision
+C001,PC port in wrong VLAN,AI suggested routing,Edited,Human noticed show vlan brief directly proved VLAN mismatch,Corrected to Layer 2 VLAN fault
+C009,DNS record missing,AI suggested gateway issue,Rejected,IP connectivity worked and nslookup showed name failure,DNS diagnosis accepted
+C015,ACL denies HTTP,AI suggested server down,Edited,ACL order contained explicit deny for TCP 80,ACL fix applied
+C018,NAT roles reversed,AI suggested missing route,Edited,Routing existed but NAT translations were empty,Corrected NAT interface roles
+C023,Guest isolation failure,AI gave generic VLAN issue,Edited,Security impact required explicit ACL isolation,Added guest ACL evidence
